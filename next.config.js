@@ -9,20 +9,6 @@ const nextConfig = {
             'images.pexels.com', 
             'images.unsplash.com', 
         ],
-        remotePatterns: [
-            {
-                protocol: 'https',
-                hostname: '^(www\\.)?(instagram|facebook)\\.com',
-            },
-            {
-                protocol: 'https',
-                hostname: '^(www\\.)?(pexels)\\.com',
-            },
-            {
-                protocol: 'https',
-                hostname: '^(www\\.)?(unsplash)\\.com',
-            },
-        ],
     },
 };
 
